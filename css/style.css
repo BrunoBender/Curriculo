@@ -1,0 +1,142 @@
+/*Fonte do site*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/*variável global (tipo static)*/
+:root{
+    --primary-color : rgb(47, 141, 125);/*criação de variavel*/
+    --primary-color-darker : hsl(34, 46%, 56%);/*criação de variavel*/
+    --second-color : rgb(255, 255, 255);
+    --voltar-color : rgba(255, 255, 255, 0.8);
+}
+
+/*seleciona todas as tags*/
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/background2.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;/*tamanho da fonte*/
+    line-height: 1.4em;/*altura da linha*/
+}
+
+#geral{
+    max-width: 730px;
+    max-height: 400px;
+    margin: 50px auto; /*deixa o container centralizado*/
+    margin-left: 50px auto;
+    margin-top: 100px;
+    background: var(--second-color);
+    border-radius: 10px;/*arredonda as bordas do container*/
+    border-style: solid;
+}
+
+.voltar{
+    width: 70px;
+    height: 38px;
+    margin: 10px;
+    padding-left: 3px;
+    margin-bottom: 0px;
+    background: var(--voltar-color);
+    border-radius: 10px;/*arredonda as bordas do container*/
+    border-style: solid;
+    border-color: var(--voltar-color);
+}
+
+.container{
+    max-width: 500px;
+    padding: 20px;
+    margin: 50px auto; /*deixa o container centralizado*/
+    margin-left: 36px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#foto{
+    max-width: 300px;
+    padding: 20px;
+    margin: auto; /*deixa o container centralizado*/
+    margin-top: 43px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#apresentacao{
+    max-width: 750px;
+    padding: 20px;
+    margin: 50px auto; /*deixa o container centralizado*/
+    margin-left: 50px auto;
+    margin-top: 5px;
+    background: var(--second-color);
+    border-radius: 10px;/*arredonda as bordas do container*/
+    border-style: solid;
+}
+
+#links{
+    max-width: 590px;
+    height: 100px;
+    margin: 40px auto; /*deixa o container centralizado*/
+    margin-left: 50px auto;
+    margin-top: 20px;
+    background: var(--second-color);
+    border-radius: 10px;/*arredonda as bordas do container*/
+    border-style: solid;
+}
+
+#linkLinkedin{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#linkGit{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#linkInsta{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#linkFace{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tabelaInfoPessoais{
+    max-width: 590px;
+    height: 400px;
+    padding: 15px;
+    margin: 50px auto; /*deixa o container centralizado*/
+    margin-left: 50px auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 0;
+    background: var(--second-color);
+    border-radius: 10px;/*arredonda as bordas do container*/
+    border-style: solid;
+}
+
+#cursos{
+    max-width: 1000px;
+    padding: 15px;
+    margin: 50px auto; /*deixa o container centralizado*/
+    margin-left: 50px auto;
+    margin-top: 10px;
+    background: var(--second-color);
+    border-radius: 10px;/*arredonda as bordas do container*/
+    border-style: solid;
+}
+
+#nome{
+    margin-bottom: 40px;
+    font-size: 0.8cm;
+}
